@@ -1,0 +1,11 @@
+  <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite1" verbose="1" >
+ 
+  <test name="Regression1">
+    <classes>
+      <class name="Com.TestNG_Practice.DependsMethod"/>
+      <class name="Com.TestNG_Practice.Groups_Priority"/>
+      <class name="Com.TestNG_Practice.Invocation_count"/>
+    </classes>
+  </test>
+</suite>
